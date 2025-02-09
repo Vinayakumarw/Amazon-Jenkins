@@ -5,6 +5,7 @@ pipeline {
         PATH = "/usr/bin:/bin:/opt/homebrew/bin"
     }
     stages {
+        
 
         stage('pull') {
             steps {
